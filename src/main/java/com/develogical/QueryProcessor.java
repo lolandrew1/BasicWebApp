@@ -11,6 +11,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("name")) {
             return "Imperial";
         }
+        if (query.toLowerCase().contains("supersecretkey")) {
+            return "Your are trying to request the super secret key";
+        }
         return "";
     }
 }
